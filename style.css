@@ -1,0 +1,200 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,ul,li,a,img,p,dl,dt,dd,h1,h2,h3,h4,span,strong{ margin:0; padding:0;list-style:none;text-decoration:none;border:0; list-style:none;}
+body{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#333; background:url("bg.jpg")/*tpa=http://www.chaobaijin.com/images/bg.jpg*/ #f7f7f7 repeat-x;}
+a{color:#d8d8d8;}
+a{blr:expression(this.onFocus=this.close());} /* 只支持IE，过多使用效率低 */ 　 
+a{blr:expression(this.onFocus=this.blur());} /* 只支持IE，过多使用效率低 */ 　 
+a:focus { -moz-outline-style: none; } /* IE不支持 */ 
+a:hover{ color:#f60; text-decoration:none;}
+p{line-height:1.8em; padding:5px 0;}
+h2{ font-size:12px; font-weight:normal;}
+.clear{ margin:0; padding:0; font-size:0; clear:both; }
+.wapper1{ width:1044px; margin:0 auto; background:#fff;}
+.wapper2{ width:1003px; margin:0 auto;}
+
+.header{ height:90px;}
+.top{ height:14px;}
+.top ul{ width:300px; height:30px; line-height:30px; float:right;}
+.top ul li{ float:left; margin-left:15px; font-family:"微软雅黑";}
+.xia{ height:70px;}
+.logo{ float:left; width:350px; height:61px;}
+
+/*menu start*/
+.menu{ height:40px; z-index:999; position:relative; float:right; width:650px; margin:-1px auto -1px auto;}
+.menu ul{height:40px; line-height:40px;}
+.menu ul li{ float:left; position:relative;background:url("biao.jpg")/*tpa=http://www.chaobaijin.com/images/biao.jpg*/ right center no-repeat; display:block; height:40px; width:115px;}
+.menu ul li dl{ background:#fff; width:90px; position:absolute; left:0px; top:40px; padding:10px; border:#0d63bf solid 1px; border-top:0;display:none; border-bottom-left-radius:5px;border-bottom-right-radius:5px;}
+.menu ul li dl dd{ line-height:24px; padding-left:5px; border-bottom:#ddd solid 1px; }
+.menu ul li dl dd a{ font-size:12px; color:#666; font-weight:normal; display:inline; padding:0; text-align:left;}
+.menu ul li dl dd a:hover{ color:#f60; text-decoration:none;}
+.menu a{ font-size:14px;color:#302e5f; text-decoration:none; display:block; height:40px; width:112px; text-align:center;}
+.menu a:hover{color:#302e5f;}
+.menu_down span{ display:block;background:url("menu_down.gif")/*tpa=http://www.chaobaijin.com/images/menu_down.gif*/ 90px center no-repeat;}
+a.menu_hover{ background:url("menuhover.jpg")/*tpa=http://www.chaobaijin.com/images/menuhover.jpg*/ center no-repeat; color:#302e5f;}
+/*menu end*/
+
+/*banner start*/
+.banner{ height:400px; overflow:hidden; position:relative; z-index:1; width:1003px;}
+.banner ul {height:400px; position:absolute;}
+.banner ul li {float:left; width:1003px; height:400px; overflow:hidden; position:relative; background:#ccc;}
+.banner ul li img{ width:1003px; height:400px;}
+.banner .btnBg {position:absolute; width:1003px; height:20px; left:0; bottom:0; background:#000;}
+.banner .btn {position:absolute; width:1003px; height:10px; padding:5px 10px; right:0; bottom:0; text-align:right;}
+.banner .btn span {display:inline-block; _display:inline; _zoom:1; width:25px; height:10px; _font-size:0; margin-left:5px; cursor:pointer; background:#fff;}
+.banner .btn span.on {background:#fff;}
+.banner .preNext {width:45px; height:100px; position:absolute; top:140px; background:url("sprite.png")/*tpa=http://www.chaobaijin.com/images/sprite.png*/ no-repeat 0 0; cursor:pointer;}
+.banner .pre {left:0;}
+.banner .next {right:0; background-position:right top;}
+/*banner end*/
+
+
+.content{ min-height:100px; margin-top:15px;}
+.con_top{ height:480px;}
+.left{ width:200px; height:480px; float:left;}
+.left h2{ background:url("a_title.jpg")/*tpa=http://www.chaobaijin.com/images/a_title.jpg*/ no-repeat; height:40px; line-height:40px;}
+.left h2 span{ margin-left:18px; color:#fff; font-size:14px;}
+.lb{ width:200px; height:410px; background:#f0f0f0;}
+.lb ul span{ color:#484766; font-weight:bold; height:36px; line-height:36px; border-bottom:#d6d6d6 1px dotted; display:block; padding-left:4px;font-size:13px;}
+.lb ul li{ line-height:32px; background:url("listlink.jpg")/*tpa=http://www.chaobaijin.com/images/listlink.jpg*/ no-repeat;}
+.lb ul li a{width:200px; height:32px; display:block;}
+.lb ul li a strong{ font-weight:normal; margin-left:20px;font-size:13px;}
+.lb ul li a:hover{ color:#fff; background:url("listhover.jpg")/*tpa=http://www.chaobaijin.com/images/listhover.jpg*/ no-repeat;}
+.more{ background:url("more.jpg")/*tpa=http://www.chaobaijin.com/images/more.jpg*/ no-repeat; height:29px; }
+.more span{line-height:29px; margin-left:8px;}
+.more span a{ color:#fff;}
+
+.middle{ width:782px; height:480px; float:left;  margin-left:20px;}
+.middle h2{ background:url("b_title.jpg")/*tpa=http://www.chaobaijin.com/images/b_title.jpg*/ no-repeat; height:40px; line-height:40px;}
+.middle h2 span{ margin-left:18px; color:#fff; font-size:14px;}
+.show{background:#f0f0f0; height:410px; width:782px;  background:#f0f0f0;}
+.show ul {margin:0px 0px 0px 12px; padding-top:5px;}
+.show ul li {width:172px; height:182px; margin:0px 11px 20px 0px; background:url("cpbg.jpg")/*tpa=http://www.chaobaijin.com/images/cpbg.jpg*/ no-repeat; float:left;}
+
+.tu{ width:164px; height:143px; margin:4px auto; padding:0px;}
+.zi{ width:172px; height:16px; margin:0px auto; line-height:16px; text-align:left; text-indent:20px; float:left; font-size:12px;}
+.zi a{ color:#484766;}
+
+
+
+.right{ width:200px; height:480px; float:right;}
+.right h2{ background:url("a_title.jpg")/*tpa=http://www.chaobaijin.com/images/a_title.jpg*/ no-repeat; height:40px; line-height:40px; width:200px;}
+.right h2 span{ margin-left:18px; color:#fff; font-size:14px;}
+.right dl{ background:#f0f0f0;}
+
+
+.con_down{ height:auto; background:#f0f0f0; margin-top:22px; padding:20px 10px; line-height:26px; color:#484766; font-size:14px;font-weight:bold; }
+.con_down p span a{ color:#fff; margin-left:10px; line-height:20px;}
+
+.footer{ background:url("footbg.jpg")/*tpa=http://www.chaobaijin.com/images/footbg.jpg*/ no-repeat; height:56px; text-align:center;}
+.footer p{ padding-top:15px; color:#d8d8d8;}
+
+/*---------------------------------------insed.html-------------------------------------------------------------------------*/
+
+/*banner start*/
+.banner_n{ height:200px; overflow:hidden; position:relative; z-index:1; width:1003px;}
+.banner_n ul {height:200px; position:absolute;}
+.banner_n ul li {float:left; width:1003px; height:200px; overflow:hidden; position:relative; background:#ccc;}
+.banner_n ul li img{ width:1003px; height:200px;}
+.banner_n .btnBg {position:absolute; width:1003px; height:20px; left:0; bottom:0; background:#000;}
+.banner_n .btn {position:absolute; width:1003px; height:10px; padding:5px 10px; right:0; bottom:0; text-align:right;}
+.banner_n .btn span {display:inline-block; _display:inline; _zoom:1; width:25px; height:10px; _font-size:0; margin-left:5px; cursor:pointer; background:#fff;}
+.banner_n .btn span.on {background:#fff;}
+.banner_n .preNext2 {width:45px; height:100px; position:absolute; top:50px; background:url("sprite.png")/*tpa=http://www.chaobaijin.com/images/sprite.png*/ no-repeat 0 0; cursor:pointer;}
+.banner_n .pre {left:0;}
+.banner_n .next {right:0; background-position:right top;}
+/*banner end*/
+
+
+.con_left{ width:200px; min-height:100px; float:left; margin-bottom:20px;}
+.con_left h2{ background:url("a_title.jpg")/*tpa=http://www.chaobaijin.com/images/a_title.jpg*/ no-repeat; height:40px; line-height:40px;}
+.con_left h2 span{ margin-left:18px; color:#fff; font-size:14px;}
+.fl{ width:200px; min-height:100px; background:#f0f0f0; padding-bottom:30px;}
+.fl ul span{ color:#484766; font-weight:bold; height:36px; line-height:36px; border-bottom:#d6d6d6 1px dotted; display:block; padding-left:4px;font-size:13px;}
+.fl ul li{ line-height:32px; background:url("listlink.jpg")/*tpa=http://www.chaobaijin.com/images/listlink.jpg*/ no-repeat;}
+.fl ul li a{width:200px; height:32px; display:block;}
+.fl ul li a strong{ font-weight:normal; margin-left:20px;font-size:13px;}
+.fl ul li a:hover{ color:#fff; background:url("listhover.jpg")/*tpa=http://www.chaobaijin.com/images/listhover.jpg*/ no-repeat;}
+
+.con_right{ width:780px; min-height:100px;float:right; margin-bottom:20px;}
+.title { background:url("c_title.jpg")/*tpa=http://www.chaobaijin.com/images/c_title.jpg*/ no-repeat; height:40px; line-height:40px;}
+.title strong{ font-weight:normal; color:#fff; font-size:14px; float:left; margin-left:20px;}
+.title span{ float:right; margin-right:15px; color:#fff; font-size:12px;}
+.title span a{ color:#fff;}
+.nr{ padding:3px 5px;}
+
+
+
+
+
+
+/*proShow*/
+.product_show h2{ line-height:28px; height:28px; border-bottom:#ddd solid 1px;font-weight:normal; margin-bottom:0px;}
+.product_show h2 strong{ float:left;  background:url("title_04.gif")/*tpa=http://www.chaobaijin.com/images/title_04.gif*/ no-repeat; width:97px; height:28px; line-height:28px; text-align:center;  font-size:14px; color:#fff;}
+.product_show ul li{ width:130px;line-height:20px;}
+.product_show ul li{ float:left; margin:15px 20px 0; border:#e4e4e4 solid 1px; display:inline;}
+.pro img{max-width:120px; max-height: 90px; width: expression(this.width >120 && this.height < this.width ? 120: true); height: expression(this.height > 90 ? 90: true);}
+.hover2{ background:#f4f4f4;}
+/*product_list*/
+.side_product { margin-top:15px;}
+.side_product h2{ height:36px; line-height:36px; padding-left:20px; font-family:"微软雅黑"; font-size:14px; color:#fff; background:#999;}
+.side_product ul{ padding:10px 10px; border:#e4e4e4 solid 1px; }
+.side_product ul li{line-height:24px;}
+.side_product ul li a{ padding-left:30px; display:block; border-bottom:#e4e4e4 dashed 1px;background: url("side_menu_bg.gif")/*tpa=http://www.chaobaijin.com/images/side_menu_bg.gif*/ 10px 8px no-repeat;}
+.side_product ul li dl dd a{ display:inline; border:none; background:none;}
+
+
+/*product_list*/
+.side_product { width:181px; }
+.side_product h2{ height:30px; line-height:30px; font-family:"微软雅黑"; font-size:14px; color:#666; padding-top:5px; padding-left:5px; background:url("c_l_01_bg01.jpg")/*tpa=http://www.chaobaijin.com/images/c_l_01_bg01.jpg*/ no-repeat;}
+.side_product h2 span { font-weight:normal; margin-left:5px;}
+.side_product ul{ padding-bottom:5px; background:url("c_l_01_bg02.jpg")/*tpa=http://www.chaobaijin.com/images/c_l_01_bg02.jpg*/ no-repeat;}
+.side_product ul li{line-height:20px; border-bottom:#ddd dashed 1px;background: url("biao.gif")/*tpa=http://www.chaobaijin.com/images/biao.gif*/ 18px 10px no-repeat;padding-left:35px;  padding-top:5px; }
+
+/*proShow*/
+.product_show h2{ line-height:28px; height:28px; border-bottom:#ddd solid 1px;font-weight:normal; margin-bottom:0px;}
+.product_show h2 strong{ float:left; background:url("title_04.gif")/*tpa=http://www.chaobaijin.com/images/title_04.gif*/ no-repeat; width:97px; height:28px; line-height:28px;text-align:center;font-size:14px; color:#fff;}
+.product_show ul li{ width:130px;line-height:20px;}
+.product_show ul li{ float:left; margin:15px 20px 0; border:#e4e4e4 solid 1px; display:inline;}
+
+.product_zhanshi{ margin-top:20px;}
+.product_zhanshi dl{ margin-left:15px;}
+.product_zhanshi dl dt{ line-height:36px; font-size:14px;}
+.product_zhanshi dl dd{ line-height:28px; border-bottom:#ddd dashed 1px;}
+.product_zhanshi dl dd span{ color:#f90; font-size:14px; font-weight:bold; font-family: Verdana, Geneva, sans-serif;}
+.xiangxi{ margin-top:20px;}
+.xiangxi h2{ height:28px; font-size:12px; line-height:28px; color:#005895; border-bottom:#ddd solid 2px;}
+.xiangxi h2 strong{ float:left; display:block; border-bottom:#005895 solid 2px; height:28px; padding:0 0px;}
+.xiangxi_con{ padding:10px 0;}
+.xiangxi_con p{ font-size:14px;}
+.shangxia{ height:26px; padding-top:10px;}
+.shangxia a{ display:block; background:url("pre.gif")/*tpa=http://www.chaobaijin.com/images/pre.gif*/ no-repeat; width:99px; height:26px; text-align:center; line-height:26px; font-size:14px; color:#005895; font-weight:bold; float:right; margin-left:16px;_margin-left:8px;  }
+.pro1 { width:115px; height:128px;}
+.pro1 td img{max-width:115px; max-height:100px; width:expression(this.width >115 && this.height < this.width ? 115: true); height: expression(this.height > 100 ? 100: true);border:1px solid #ccc; padding:5px}
+.pro2{max-width:288px; max-height:216px; width: expression(this.width >288 && this.height < this.width ? 288: true); height: expression(this.height > 216 ? 216: true);}
+.pro3{max-width:64px; max-height: 48px; width: expression(this.width >64 && this.height < this.width ? 64: true); height: expression(this.height > 48 ? 48: true);}
+ul#thumblist li a{display:block;border:1px solid #CCC; height:54px; line-height:54px;}
+ul#thumblist li a.zoomThumbActive{border:1px solid #c00;}
+.clearfix ul li{ float:left; width:70px; margin:0 2px;display:inline;}
+.clearfix ul li img{ padding:0; margin:0; cursor:pointer;}
+.zoomPad{position:relative;z-index:99;cursor:crosshair;}
+.zoomPreload{-moz-opacity:0.8;opacity: 0.8;filter: alpha(opacity = 80);color: #333;font-size: 12px;font-family: Tahoma;text-decoration: none;border: 1px solid #CCC;background-color: white;padding: 8px;text-align:center;background-image: url("zoomloader.gif")/*tpa=http://www.chaobaijin.com/images/zoomloader.gif*/;background-repeat: no-repeat;background-position: 43px 30px;z-index:110;width:90px;height:43px;position:absolute;top:0px;left:0px;* width:100px;* height:49px;}
+.zoomPup{overflow:hidden;background-color: #FFF;-moz-opacity:0.6;opacity: 0.6;filter: alpha(opacity = 60);z-index:120;position:absolute;border:1px solid #CCC;z-index:101;cursor:crosshair;}
+.zoomOverlay{position:absolute;left:0px;top:0px;background:#FFF;/*opacity:0.5;*/z-index:5000;width:100%;height:100%;display:none;z-index:101;}
+.zoomWindow{position:absolute;left:110%;top:40px;background:#FFF;z-index:6000;height:auto;z-index:10000;z-index:110;}
+.zoomWrapper{position:relative;border:1px solid #999;z-index:110;}
+.zoomWrapperTitle{display:block;background:#999;color:#FFF;height:18px;line-height:18px;width:100%;overflow:hidden;text-align:center;font-size:10px;position:absolute;top:0px;left:0px;z-index:120;-moz-opacity:0.6;opacity: 0.6;filter: alpha(opacity = 60);}
+.zoomWrapperImage{display:block;position:relative;overflow:hidden;z-index:110;}
+.zoomWrapperImage img{border:0px;display:block;position:absolute;z-index:101;}
+.zoomIframe{z-index: -1;filter:alpha(opacity=0);-moz-opacity: 0.80;opacity: 0.80;position:absolute;display:block;}
+.hover2{ background:#f4f4f4;}
+
+/*contact*/
+.contact{ margin-top:10px;}
+.contact ul li{ line-height:30px; border-bottom:#e3d2c1 dashed 1px;}
+
+
+
+
+
+
